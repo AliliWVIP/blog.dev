@@ -53,11 +53,17 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
 
+[params.utteranc]
+    repo = "AliliWVIP/blog.dev"
+    issue-term = "pathname"
+    theme = "github-light"
+
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/AliliWl"
+
 
   [[params.social]]
     name = "instagram"
